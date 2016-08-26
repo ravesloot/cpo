@@ -121,6 +121,11 @@ are based on 10px sizing. So basically 1.5rem = 15px :) */
 html {
   font-size: 62.5%; }
 body {
+height: 100%;	
+	
+	
+	
+	
   font-size: 1.5em; /* currently ems cause chrome bug misinterpreting rems on body element */
   line-height: 1.6;
   font-weight: 400;
@@ -416,3 +421,40 @@ there.
 
 /* Larger than Desktop HD */
 @media (min-width: 1200px) {}
+
+
+#header-div{
+	background: url(/ncpo/images/newyork.jpg) no-repeat top center fixed;
+	background-size: cover;
+	background-position: center center;
+	background-repeat: no-repeat;
+	background-attachment: fixed;
+   height: 100vh;
+   width: 100%;
+   margin: 0;
+   padding: 0;
+   color: white;
+   text-align: center;
+   font-size: 50px;
+}
+
+
+.logo{
+	margin-top: 20%;
+}
+
+#content{
+	text-align: justify;
+}
+
+#content h4{
+	text-align: center;
+}
+
+#photos{
+	text-align: center;
+}
+
+#us{
+	background:#f8f8f8;
+}
