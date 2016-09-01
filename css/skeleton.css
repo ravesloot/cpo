@@ -437,7 +437,7 @@ there.
 
 
 #header-div{
-	background: url(../images/newyork.jpg) no-repeat top center fixed;
+	background: url(images/newyork.jpg) no-repeat top center fixed;
 	background-size: cover;
 	background-position: center center;
 	background-repeat: no-repeat;
