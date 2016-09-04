@@ -598,6 +598,13 @@ there.
 	text-align: center;
 }
 
+#bigideas{
+	width: 360;
+	margin-left: auto;
+	margin-right: auto;
+	display: block;
+}
+
 
 
 /* HOVER DINGEN */
