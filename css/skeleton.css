@@ -175,9 +175,9 @@ p {
 /* Links
 –––––––––––––––––––––––––––––––––––––––––––––––––– */
 a {
-  color: #1EAEDB; }
+  color: #6600ff; }
 a:hover {
-  color: #0FA0CE; }
+  color: #414141; }
 
 
 /* Buttons
@@ -437,7 +437,7 @@ there.
 
 
 #header-div{
-	background: url(../images/newyork.jpg) no-repeat top center fixed;
+	background: url(images/newyork.jpg) no-repeat top center fixed;
 	background-size: cover;
 	background-position: center center;
 	background-repeat: no-repeat;
@@ -508,10 +508,6 @@ there.
 
 #content a{
 	text-decoration: none;
-}
-
-#content a:hover{
-	background-color: #414141;
 }
 
 #projectheading{
@@ -723,6 +719,3 @@ there.
   -ms-transform: scale(1);
   transform: scale(1);
 }
-
-
-
