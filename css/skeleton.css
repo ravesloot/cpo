@@ -605,6 +605,74 @@ there.
 	display: block;
 }
 
+.error{
+	font-size: 4.0rem;
+	font-weight: 600;
+	color: black;
+	/* Safari */
+-webkit-transform: rotate(-2deg);
+
+/* Firefox */
+-moz-transform: rotate(-2deg);
+
+/* IE */
+-ms-transform: rotate(-2deg);
+
+/* Opera */
+-o-transform: rotate(-2deg);
+}
+
+.error2{
+	font-size: 4.0rem;
+	font-weight: 600;
+	color: black;
+	/* Safari */
+-webkit-transform: rotate(2deg);
+
+/* Firefox */
+-moz-transform: rotate(2deg);
+
+/* IE */
+-ms-transform: rotate(2deg);
+
+/* Opera */
+-o-transform: rotate(2deg);
+}
+
+.errordiv{
+	background-color: rgba(255, 0, 0, 0.45);
+	-webkit-backdrop-filter: blur(4px);
+	padding-bottom: 1%;
+	padding-top: 1%;
+	
+	
+	-webkit-animation: seconds 0.7s forwards;
+  -webkit-animation-iteration-count: 1;
+  -webkit-animation-delay: 5s;
+  animation: seconds 0.7s forwards;
+  animation-iteration-count: 1;
+  animation-delay: 5s;
+  position: relative;
+}
+@-webkit-keyframes seconds {
+  0% {
+    opacity: 1;
+  }
+  100% {
+    opacity: 0;
+    top: 20px; 
+  }
+}
+@keyframes seconds {
+  0% {
+    opacity: 1;
+  }
+  100% {
+    opacity: 0;
+    top: -20px; 
+  }
+}
+
 
 
 /* HOVER DINGEN */
