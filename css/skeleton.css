@@ -193,7 +193,6 @@ input[type="button"] {
   color: #555;
   text-align: center;
   font-size: 11px;
-  font-weight: 600;
   line-height: 38px;
   letter-spacing: .1rem;
   text-transform: uppercase;
@@ -215,7 +214,8 @@ input[type="submit"]:focus,
 input[type="reset"]:focus,
 input[type="button"]:focus {
   color: #333;
-  border-color: #888;
+  background-color: #e6e5e5;
+  border-color: #313131;
   outline: 0; }
 .button.button-primary,
 button.button-primary,
@@ -283,7 +283,6 @@ input[type="url"]:focus,
 input[type="password"]:focus,
 textarea:focus,
 select:focus {
-  border: 1px solid #33C3F0;
   outline: 0; }
 label,
 legend {
@@ -793,4 +792,92 @@ there.
   -webkit-transform: scale(1);
   -ms-transform: scale(1);
   transform: scale(1);
+}
+
+
+input[type="email"]{
+	width: 99%;
+	text-align: left;
+	color: #414141;
+	border: none;
+	font-size: 1.5rem;
+	font-family: 'Roboto', sans-serif;
+	-webkit-border-radius: 1;
+  -moz-border-radius: 1;
+  border-radius: 1px;
+  box-shadow: 0 0 6px rgba(0, 0, 0, 0.3);
+  background: rgba(255, 255, 255, 1);
+	
+}
+
+textarea[name="message"]{
+	resize: none;
+	width: 99%;
+	height: 200px;
+	text-align: left;
+	color: #414141;
+	background: rgba(255, 255, 255, 1);
+	border: none;
+	font-size: 1.5rem;
+	font-family: 'Roboto', sans-serif;
+	-webkit-border-radius: 1;
+  -moz-border-radius: 1;
+  border-radius: 1px;
+  box-shadow: 0 0 6px rgba(0, 0, 0, 0.3);
+}
+
+/*
+@media (min-width: 700px) {
+	input[type="email"]{
+		background: rgba(181, 179, 179, 0.15);
+		}
+	textarea[name="message"]{
+		background: rgba(181, 179, 179, 0.15);
+		}
+	
+	
+}
+*/
+
+
+
+::-webkit-input-placeholder {
+   color: rgba(65, 65, 65, 0.40);
+   text-align: left;
+}
+
+:-moz-placeholder { /* Firefox 18- */
+   
+   color: rgba(65, 65, 65, 0.40);  
+   text-align: left;
+}
+
+::-moz-placeholder {  /* Firefox 19+ */
+   color: rgba(65, 65, 65, 0.40);  
+   text-align: left;
+}
+
+:-ms-input-placeholder {  
+   color: rgba(65, 65, 65, 0.40);  
+   text-align: left;
+}
+
+#sent{
+	color: white;
+	font-weight: 300;
+	font-size: 16px;
+	font-weight: 100;
+	background-color: #05c666;
+	padding-top: 5px;
+	padding-bottom: 5px;
+}
+
+#oops{
+	color: white;
+	font-weight: 300;
+	font-size: 16px;
+	font-weight: 100;
+	background-color: #d73c56;
+	padding-top: 5px;
+	padding-bottom: 5px;
 }
